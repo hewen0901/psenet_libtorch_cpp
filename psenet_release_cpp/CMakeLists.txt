@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
-project(psenetDemo)
+project(psenet_crnnDemo)
 
 # 设置Opencv的CMake路径
 set(OpenCV_DIR /usr/local/share/OpenCV)
@@ -22,5 +22,5 @@ if(CMAKE_COMPILER_IS_GNUCXX)
     message(STATUS "optional:-std=c++11")
 endif(CMAKE_COMPILER_IS_GNUCXX)
 
-add_executable(${PROJECT_NAME} psenet_main.cpp)
+add_executable(${PROJECT_NAME} psenet_crnn_main.cpp)
 target_link_libraries(${PROJECT_NAME} ${TORCH_LIBRARIES} ${OpenCV_LIBS})

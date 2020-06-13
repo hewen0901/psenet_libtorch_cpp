@@ -1,6 +1,9 @@
 ## `psenet网络pytorch模型的c++调用测试代码`
 ### 功能介绍
 - c++代码测试字符检测网络psenet的pytorch模型
+### 环境依赖
+- pytorch 1.3.1
+- opencv3.X
 ### 编译说明
 ```bash
 > mkdir build
