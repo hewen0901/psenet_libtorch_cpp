@@ -1,6 +1,6 @@
-## `psenet网络pytorch模型的c++调用测试代码`
+## `psenet和crnn网络pytorch模型的c++调用测试代码`
 ### 功能介绍
-- c++代码测试字符检测网络psenet的pytorch模型
+- 字符检测网络psenet和字符识别网络crnn的pytorch模型的c++测试代码
 ### 环境依赖
 - pytorch 1.3.1
 - opencv3.X
